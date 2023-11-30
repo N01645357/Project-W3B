@@ -1,0 +1,30 @@
+html{
+    background-color: black;
+    font-family: monospace;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section h2{
+    color: white;
+    text-align: center;
+}
+
+section p{
+    color: white;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+
+
+footer{
+    color: white;
+}
