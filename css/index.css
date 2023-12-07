@@ -1,6 +1,7 @@
 html{
-    background-color: black;
+    background-image: url("/images/space.png");
     font-family: monospace;
+    
 }
 
 #floating{
@@ -32,20 +33,22 @@ nav ul {
 
 nav ul li{
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
+
 }
 
 nav ul li a{
     text-decoration: none;
     display: block;
     color: white;
+    padding: 8px 10px;
 }
 
 
 nav ul li a:hover:not(.active){
     background-color: purple;
     color: white;
-    padding: 8px 10px;
+    
 }
 
 section h2{
