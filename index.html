@@ -2,14 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        <link rel="icon" href="../images/home.png">
-        <link rel="stylesheet" href="index.css" type="text/css">
-        <script src="index.js" defer></script>
-        <title>Space Observation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Team W3B">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <script src="js/index.js" defer></script>
+        <title>W3B</title>
     </head>
     <body>
         <header>
-            <h1>Space Observation</h1>
+            <h1>W3B</h1>
             <br><p>Welcome to our website about space!</p>
             <br><p>It will contain information about
                     all the planets in our solar system, and be completely space and
@@ -30,11 +33,15 @@
                 </section>
 
                 <section id="mercury">
-                    <img src="images/mercury.png" alt="mercury" width="400px" height="400px">
+                    <a href="planets/mercury.html">
+                        <img src="images/mercury.png" alt="mercury" width="400px" height="400px">
+                    </a>
                 </section>
 
                 <section id="venus">
-                    <img src="images/venus.png" alt="venus" width="400px" height="400px">
+                    <a href="planets/venus.html">
+                        <img src="images/venus.png" alt="venus" width="400px" height="400px">
+                    </a>
                 </section>
 
                 <section id="moon">
@@ -45,31 +52,47 @@
                 </section>
 
                 <section id="earth">
-                    <img src="images/earth.png" alt="earth" width="400px" height="400px">
+                    <h2>Earth</h2>
+                    <a href="planets/earth.html">
+                        <img src="images/earth.png" alt="earth" width="400px" height="400px">
+                    </a>
                 </section>
 
                 <section id="mars">
-                    <img src="images/mars.png" alt="mars" width="400px" height="400px">
+                    <h2>Mars</h2>
+                    <a href="planets/mars.html">
+                        <img src="images/mars.png" alt="mars" width="400px" height="400px">
+                    </a>
                 </section>
 
                 <section id="jupiter">
-                    <img src="images/jupiter.png" alt="jupiter" width="400px" height="400px">
+                    <h2>Jupiter</h2>
+                    <a href="planets/jupiter.html">
+                        <img src="images/jupiter.png" alt="jupiter" width="400px" height="400px">
+                    </a>
                 </section>
 
                 <section id="saturn">
                     <h2>Saturn</h2>
-                    <img src="images/saturn.png" alt="saturn" width="400px" height="400px">
-                    <p>Saturn is the sixth planet from the Sun and the second-largest in our solar system. It's best known for its prominent ring system, made up of ice, rock, and dust.</p>
-                    <p>Interesting Fact: Saturn's rings are the most extensive ring system of any planet in the Solar System. They are mostly made from chunks of ice and carbonaceous dust.</p>
+                    <a href="planets/saturn.html">
+                        <img src="images/saturn.png" alt="saturn" width="400px" height="400px">
+                    </a>
+                        <p>Saturn is the sixth planet from the Sun and the second-largest in our solar system. It's best known for its prominent ring system, made up of ice, rock, and dust.</p>
+                        <p>Interesting Fact: Saturn's rings are the most extensive ring system of any planet in the Solar System. They are mostly made from chunks of ice and carbonaceous dust.</p>
                 </section>
 
-                <section id="uranus"> 
-                    <img src="images/uranus.png" alt="uranus" width="400px" height="400px">
+                <section id="uranus">
+                    <h2>Uranus</h2>
+                    <a href="planets/uranus.html">
+                        <img src="images/uranus.png" alt="uranus" width="400px" height="400px">
+                    </a>
                 </section>
 
                 <section id="neptune">                    
                     <h2>Neptune</h2>
-                    <img src="images/neptune.png" alt="neptune" width="400px" height="400px">
+                    <a href="planets/neptune.html">
+                        <img src="images/neptune.png" alt="uranus" width="400px" height="400px">
+                    </a>
                     <p>Neptune is the eighth and farthest known planet from the Sun in the Solar System. It is the fourth-largest planet by diameter and the third-largest by mass.</p>
                     <p>Interesting Fact: Neptune has the strongest winds in the solar system, reaching speeds of over 1,200 mph (2,000 km/h).</p>
                 </section>
@@ -80,3 +103,12 @@
             </footer>
     </body>   
 </html>
+
+<!--TODO:
+-add a text signifying that the planets can be clicked on for more info.
+-every planet image on index is hyperlinked. remove the underscore decoration on them in CSS (unless the underscore doesn't show up).
+-we should remove that "welcome to our website!" paragraph, cause Ms. said that welcoming is archaic and a waste of space.
+-i'm not sure what to do with the navbar. cause all the planets on index are hyperlinked. we could have both for ease of access though.
+-should moon and sun have their own pages?
+-in the images folder was my zip resource for images.
+-->
