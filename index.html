@@ -2,15 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <link rel="icon" href="../images/home.png">
-        <link rel="stylesheet" href="index.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Team W3B">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <script src="/js/main.js" defer></script>
+        <!-- <link rel="stylesheet" href="/css/main.css"> -->
         <script src="js/index.js" defer></script>
         <title>Space Observation</title>
     </head>
     <body>
         <header>
-            <img id="floating" src="images/astronaut.png" alt="astronaunt" width="105px" height="100px">
+            <img id="floating" src="images/astronaut.png" alt="astronaunt" width="100" height="100">
             <br><h1>Space Observation</h1>
             <br><p>Welcome to our website about space!</p>
             <br><p>It will contain information about
@@ -20,9 +24,9 @@
                     Our solar system orbits the center of the Milky Way galaxy at about 515,000 mph (828,000 kph). 
                     We're in one of the galaxy's four spiral arms. </p>
         </header>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="=active">HOME</a></li>
+        <nav>
+            <ul>
+               <li><a href="index.html" class="=active">HOME</a></li>
                     <li><a href="#">SUN</a></li>
                     <li><a href="#">MERCURY</a></li>
                     <li><a href="#">VENUS</a></li>
@@ -34,72 +38,88 @@
                     <li><a href="#">URANUS</a></li>
                     <li><a href="#">NEPTUNE</a></li>
                     <li><a href="#">ABOUT US</a></li>
-                </ul>
-            </nav>
-            <main>
-                <section id="sun">
-                    <h2>The Sun</h2>
-                    <img src="images/sun.png" alt="sun" width="400px" height="400px">
-                </section>
+            </ul>
+         </nav>
+        <main>
+            <button class="scroll-button" onclick="scrollToBottom()">Go to Bottom</button>    
+            <section id="sun">
+                <img src="images/sun.png" alt="sun" width="400px" height="400px">
+            </section>
 
-                <section id="mercury">
-                    <h2>Mercury</h2>
+            <section id="mercury">
+                <a href="planets/mercury.html">
                     <img src="images/mercury.png" alt="mercury" width="400px" height="400px">
-                </section>
+                </a>
+            </section>
 
-                <section id="venus">
-                    <h2>Venus</h2>
+            <section id="venus">
+                <a href="planets/venus.html">
                     <img src="images/venus.png" alt="venus" width="400px" height="400px">
-                </section>
+                </a>
+            </section>
 
-                <section id="moon">
-                    <h2>The Moon</h2>
-                    <img src="images/moon.png" alt="moon" width="400px" height="400px">
-                    <p>The Moon is Earth's only natural satellite and the fifth largest moon in the Solar System. It's the largest relative to the size of the planet it orbits.</p>
-                    <p>Interesting Fact: The Moon is slowly moving away from Earth, at an average rate of 3.8 cm per year.</p>
-                </section>
+            <section id="moon">
+                <h2>The Moon</h2>
+                <img src="images/moon.png" alt="moon" width="400px" height="400px">
+                <p>The Moon is Earth's only natural satellite and the fifth largest moon in the Solar System. It's the largest relative to the size of the planet it orbits.</p>
+                <p>Interesting Fact: The Moon is slowly moving away from Earth, at an average rate of 3.8 cm per year.</p>
+            </section>
 
-                <section id="earth">
-                    <h2>Earth</h2>
+            <section id="earth">
+                <h2>Earth</h2>
+                <a href="planets/earth.html">
                     <img src="images/earth.png" alt="earth" width="400px" height="400px">
-                </section>
+                </a>
+            </section>
 
-                <section id="mars">
-                    <h2>Mars</h2>
+            <section id="mars">
+                <h2>Mars</h2>
+                <a href="planets/mars.html">
                     <img src="images/mars.png" alt="mars" width="400px" height="400px">
-                </section>
+                </a>
+            </section>
 
-                <section id="jupiter">
-                    <h2>Jupiter</h2>
+            <section id="jupiter">
+                <h2>Jupiter</h2>
+                <a href="planets/jupiter.html">
                     <img src="images/jupiter.png" alt="jupiter" width="400px" height="400px">
-                </section>
+                </a>
+            </section>
 
-                <section id="saturn">
-                    <h2>Saturn</h2>
+            <section id="saturn">
+                <h2>Saturn</h2>
+                <a href="planets/saturn.html">
                     <img src="images/saturn.png" alt="saturn" width="400px" height="400px">
-                    <p>Saturn is the sixth planet from the Sun and the second-largest in our solar system. It's best known for its prominent ring system, made up of ice, rock, and dust.</p>
-                    <p>Interesting Fact: Saturn's rings are the most extensive ring system of any planet in the Solar System. They are mostly made from chunks of ice and carbonaceous dust.</p>
-                </section>
+                </a>
+                <p>Saturn is the sixth planet from the Sun and the second-largest in our solar system. It's best known for its prominent ring system, made up of ice, rock, and dust.</p>
+                <p>Interesting Fact: Saturn's rings are the most extensive ring system of any planet in the Solar System. They are mostly made from chunks of ice and carbonaceous dust.</p>
+            </section>
 
-                <section id="uranus">
-                    <h2>Uranus</h2> 
+            <section id="uranus">
+                <h2>Uranus</h2>
+                <a href="planets/uranus.html">
                     <img src="images/uranus.png" alt="uranus" width="400px" height="400px">
-                </section>
+                </a>
+            </section>
 
-                <section id="neptune">                    
-                    <h2>Neptune</h2>
-                    <img src="images/neptune.png" alt="neptune" width="400px" height="400px">
-                    <p>Neptune is the eighth and farthest known planet from the Sun in the Solar System. It is the fourth-largest planet by diameter and the third-largest by mass.</p>
-                    <p>Interesting Fact: Neptune has the strongest winds in the solar system, reaching speeds of over 1,200 mph (2,000 km/h).</p>
-                </section>
-            </main>
-            <br><footer>
-                <h3>Contact Us</h3>
-                <h3>About Us</h3>
-                <img src="images/twitter.png" alt="Twitter">
-                <img src="images/facebook.png" alt="Facebook">
-                <img src="images/instagram.png" alt="Instagram">
-            </footer>
+            <section id="neptune">                    
+                <h2>Neptune</h2>
+                <a href="planets/neptune.html">
+                    <img src="images/neptune.png" alt="uranus" width="400px" height="400px">
+                </a>
+                <p>Neptune is the eighth and farthest known planet from the Sun in the Solar System. It is the fourth-largest planet by diameter and the third-largest by mass.</p>
+                <p>Interesting Fact: Neptune has the strongest winds in the solar system, reaching speeds of over 1,200 mph (2,000 km/h).</p>
+            </section>
+        </main>
+        <br><footer>
+            <button class="scroll-button1" onclick="scrollToTop()">Go to Top</button>
+            <h3>Contact Us</h3>
+            <h3>About Us</h3>
+            <img src="" alt="twitter">
+            <img src="" alt="facebook">
+            <img src="" alt="instagram">
+            <p>&copy;2023 Team W3B</p>
+        </footer>
     </body>   
 </html>
 
