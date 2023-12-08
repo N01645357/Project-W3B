@@ -35,6 +35,37 @@
             <button class="scroll-button1" onclick="scrollToTop()">Go to Top</button>
             <button onclick="footerShow()" class="footerShow">Show Footer</button>
             <button onclick="footerHide()" class="footerHide" id="footerHide">Hide Footer</button>
+            
+            <div id="rocket"></div>
+            <style>
+                #rocket {
+                    background: url('/images/spaceshuttle.png') no-repeat; 
+                    background-size: contain;
+                    width: 50px; 
+                    height: 100px;
+                    position: absolute;
+                    top: 0;
+                    right: 48%; 
+                }
+            </style>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    let pos = 0;
+                    const elem = document.getElementById("rocket");
+                    const endPosition = 200; 
+                    const id = setInterval(frame, 5);
+            
+                    function frame() {
+                        if (pos >= endPosition) {
+                            clearInterval(id);
+                        } else {
+                            pos++;
+                            elem.style.top = pos + "px";
+                        }
+                    }
+                });
+            </script>
+
             <h1>Jupiter</h1>
             <img src="../images/jupiter.png" alt="jupiter" width="400px" height="400px">
             <p>Jupiter is the fifth planet from the Sun. It's the largest planet in the solar system. It's twice as massive than all the other planets combined. Jupiter is named after the Roman god king. It rapidly rotates on it's axis, completing one full rotation in 10 hours. It takes 12 Earth years for Jupiter to make a complete orbit around the Sun. Jupiter has 95 moons in it's orbit, and it has faint rings formed from small moons and dust particles. It's classified as a gas giant, and lacks a solid surface, as its atmosphere is made up of layers of clouds.</p>

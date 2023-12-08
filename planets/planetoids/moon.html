@@ -34,6 +34,37 @@
             <button class="scroll-button1" onclick="scrollToTop()">Go to Top</button>
             <button onclick="footerShow()" class="footerShow">Show Footer</button>
             <button onclick="footerHide()" class="footerHide" id="footerHide">Hide Footer</button>
+            
+            <div id="rocket"></div>
+            <style>
+                #rocket {
+                    background: url('/images/spaceshuttle.png') no-repeat; 
+                    background-size: contain;
+                    width: 50px; 
+                    height: 100px;
+                    position: absolute;
+                    top: 0;
+                    right: 48%; 
+                }
+            </style>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    let pos = 0;
+                    const elem = document.getElementById("rocket");
+                    const endPosition = 200; 
+                    const id = setInterval(frame, 5);
+            
+                    function frame() {
+                        if (pos >= endPosition) {
+                            clearInterval(id);
+                        } else {
+                            pos++;
+                            elem.style.top = pos + "px";
+                        }
+                    }
+                });
+            </script>
+            
             <img src="/images/moon.png" alt="moon" height="400px" width="400px">
             <h1>The Moon</h1>
             <section>
