@@ -211,7 +211,7 @@ footer img {
 .hoverEffectSun {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkSun:hover .hoverEffect {
+.imageLinkSun:hover .hoverEffectSun {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -219,7 +219,7 @@ footer img {
 .hoverEffectMer {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkMer:hover .hoverEffect {
+.imageLinkMer:hover .hoverEffectMer {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -227,7 +227,7 @@ footer img {
 .hoverEffectVen {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkVen:hover .hoverEffect {
+.imageLinkVen:hover .hoverEffectVen {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -235,7 +235,7 @@ footer img {
 .hoverEffectEarth {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkEarth:hover .hoverEffect {
+.imageLinkEarth:hover .hoverEffectEarth {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -243,7 +243,7 @@ footer img {
 .hoverEffectMoon {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkMoon:hover .hoverEffect {
+.imageLinkMoon:hover .hoverEffectMoon {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -251,7 +251,7 @@ footer img {
 .hoverEffectMars {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkMars:hover .hoverEffect {
+.imageLinkMars:hover .hoverEffectMars {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -259,7 +259,7 @@ footer img {
 .hoverEffectJup {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkJup:hover .hoverEffect {
+.imageLinkJup:hover .hoverEffectJup {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -267,7 +267,7 @@ footer img {
 .hoverEffectSat {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkSat:hover .hoverEffect {
+.imageLinkSat:hover .hoverEffectSat {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -275,7 +275,7 @@ footer img {
 .hoverEffectUra {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkUra:hover .hoverEffect {
+.imageLinkUra:hover .hoverEffectUra {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
 
@@ -283,6 +283,6 @@ footer img {
 .hoverEffectNep {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-.imageLinkNep:hover .hoverEffect {
+.imageLinkNep:hover .hoverEffectNep {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
