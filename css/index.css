@@ -110,18 +110,19 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin: 0 10px; /* Adjust the margin between list items */
+    padding: 30px; /* Preserve the padding from the original code */
 }
 
 nav ul li a {
     text-decoration: none;
     display: block;
     color: white;
-    padding: 8px 10px;
 }
 
 nav ul li a:hover:not(.active) {
     background-color: purple;
     color: white;
+    padding: 10px 10px;
 }
 
 
@@ -141,8 +142,8 @@ nav ul li a:hover:not(.active) {
 
 .scroll-button1 {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    top: 20px;
+    left: 160px;
     padding: 10px 20px;
     background-color: #ff6347;
     color: white;
@@ -167,8 +168,8 @@ nav ul li a:hover:not(.active) {
 }
 .footerShow {
     position: fixed;
-    /* top: 20px; */
-    /* right: 20px; */
+    top: 20px;
+    right: 160px;
     padding: 10px 20px;
     background-color: #110d0c;
     color: white;
