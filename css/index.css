@@ -195,16 +195,16 @@ footer {
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 10px; /* Reduced padding */
+    padding: 10px;
     color: white;
     text-align: center;
-    font-size: 14px; /* Reduced font size */
+    font-size: 14px;
+    justify-content: center;
 }
 
 footer img {
     width: 40px;
     height: 40px;
-    margin: 5px;
 }
 
 /* Sun Transition */
