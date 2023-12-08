@@ -71,8 +71,11 @@ footer{
 
 html {
     /* background-color: black; */
-    background-image: url("/Project-W3B-master/images/starryNight.png");
+    background-image: url("../images/background.png");
     font-family: monospace;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #floating {
