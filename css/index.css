@@ -7,16 +7,40 @@ html {
     background-position: center;
 }
 
-#floating {
-    animation-name: floating;
+/* Astronauts on Space Walk */
+#floating1 {
+    animation-name: floating1;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-
-@keyframes floating {
+@keyframes floating1 {
     0% { transform: translate(0, 0px); }
-    50% { transform: translate(0, 15px); }
+    50% { transform: translate(0, 60px); }
+    100% { transform: translate(0, -0px); }
+}
+
+#floating2 {
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating2 {
+    0% { transform: translate(0, 0px); }
+    50% { transform: translate(0, 60px); }
+    100% { transform: translate(0, -0px); }
+}
+
+#floating3 {
+    animation-name: floating3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating3 {
+    0% { transform: translate(0, 0px); }
+    50% { transform: translate(0, 60px); }
     100% { transform: translate(0, -0px); }
 }
 
