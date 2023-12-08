@@ -203,6 +203,7 @@ nav ul li a#neptune:hover:not(.active) {
     z-index: 999;
     transition: background-color 0.3s ease;
 }
+
 section h2 {
     color: white;
     text-align: center;
