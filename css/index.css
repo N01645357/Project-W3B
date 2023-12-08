@@ -207,19 +207,82 @@ footer img {
     margin: 5px;
 }
 
-.hoverEffect {
+/* Sun Transition */
+.hoverEffectSun {
     transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-
-/* Define the hover effect */
-.imageLink:hover .hoverEffect {
+.imageLinkSun:hover .hoverEffect {
     transform: translateX(-300px); /* Move the image 50px to the right */
 }
-.textShow {
-    display: none; /* Initially hide the text */
-  }
-  
-.textShow:hover {
-    display: block; /* Show the text on hover */
+
+/* Mercury Transition */
+.hoverEffectMer {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
 }
-  
+.imageLinkMer:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+
+/* Venus Transition */
+.hoverEffectVen {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkVen:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+
+/* Earth Transition */
+.hoverEffectEarth {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkEarth:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+
+/* Moon Transition */
+.hoverEffectMoon {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkMoon:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+
+/* Mars Transition */
+.hoverEffectMars {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkMars:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+
+/* Jupiter Transition */
+.hoverEffectJup {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkJup:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+
+/* Saturn Transition */
+.hoverEffectSat {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkSat:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+
+/* Uranus Transition */
+.hoverEffectUra {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkUra:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+
+/* Neptunte Transition */
+.hoverEffectNep {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkNep:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
