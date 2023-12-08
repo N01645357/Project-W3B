@@ -7,7 +7,7 @@
         <link rel="icon" href="../favicon.ico">
         <link rel="stylesheet" href="../css/normalize.css" type="text/css">
         <link rel="stylesheet" href="../css/index.css" type="text/css">
-        <script src="../js/index.js" defer></script>
+        <script src="/js/main.js" defer></script>
         <title>Venus</title>
     </head>
     <body>
@@ -31,6 +31,10 @@
         </nav>
         </nav>
         <main>
+            <button class="scroll-button" onclick="scrollToBottom()">Go to Bottom</button>
+            <button class="scroll-button1" onclick="scrollToTop()">Go to Top</button>
+            <button onclick="footerShow()" class="footerShow">Show Footer</button>
+            <button onclick="footerHide()" class="footerHide" id="footerHide">Hide Footer</button>
             <section>
                 <h2>Overview</h2>
                 <p>Saturn, also known as the ringed planet is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter. Known for its stunning rings, Saturn has a radius about nine times that of Earth, but it is less dense, being composed mostly of hydrogen and helium.</p>
@@ -52,7 +56,13 @@
                 <p>Another notable moon is Enceladus, which has become a prime candidate in the search for extraterrestrial life due to its subsurface ocean. Plumes of water vapor erupting from Enceladus' south pole, discovered by the Cassini spacecraft, suggest the potential for hydrothermal activity on the ocean floor.</p>
             </section>
         </main>
-        <footer>
+        <footer id="mainFooter" style="display: none;">
+            <h3>Contact Us</h3>
+            <h3>About Us</h3>
+            <img src="images/icons/twitter.png" alt="Twitter">
+            <img src="images/icons/facebook.png" alt="Facebook">
+            <img src="images/icons/instagram.png" alt="Instagram">
+            <img src="images/icons/github.png" alt="GitHub">
             <p>&copy;2023 Team W3B</p>
         </footer>
     </body>
