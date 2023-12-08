@@ -189,13 +189,103 @@ img {
     margin: auto;
 }
 
+.textShow {
+    font-size: 50px;
+    margin-top: -630px;
+    margin-left: 900px;
+    /* display: none; */
+}
+.textShow:hover {
+    /* display: block; */
+}
+
+/* Sun Transition */
+.hoverEffectSun {
+    transition: transform 0.06s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkSun:hover .hoverEffectSun {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Mercury Transition */
+.hoverEffectMer {
+    transition: transform 0.52s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkMer:hover .hoverEffectMer {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Venus Transition */
+.hoverEffectVen {
+    transition: transform 0.34s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkVen:hover .hoverEffectVen {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Earth Transition */
+.hoverEffectEarth {
+    transition: transform 0.319s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkEarth:hover .hoverEffectEarth {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Moon Transition */
+.hoverEffectMoon {
+    transition: transform 0.784s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkMoon:hover .hoverEffectMoon {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Mars Transition */
+.hoverEffectMars {
+    transition: transform 0.520s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkMars:hover .hoverEffectMars {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Jupiter Transition */
+.hoverEffectJup {
+    transition: transform 0.201s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkJup:hover .hoverEffectJup {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Saturn Transition */
+.hoverEffectSat {
+    transition: transform 0.309s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkSat:hover .hoverEffectSat {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Uranus Transition */
+.hoverEffectUra {
+    transition: transform 0.339s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkUra:hover .hoverEffectUra {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+/* Neptune Transition */
+.hoverEffectNep {
+    transition: transform 0.299s ease-in-out; /* Apply transition for smooth movement */
+}
+.imageLinkNep:hover .hoverEffectNep {
+    transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 10px;
+    padding: 10px; /* Reduced padding */
     color: white;
     text-align: center;
     font-size: 14px;
