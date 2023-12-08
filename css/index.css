@@ -115,12 +115,13 @@ nav ul li a#neptune:hover:not(.active) {
     
 }
 
-.scroll-button {
+.scrollBottom {
+    font-size: large;
     position: fixed;
     top: 20px;
     left: 20px;
     padding: 10px 20px;
-    background-color: #add8e6;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -129,12 +130,13 @@ nav ul li a#neptune:hover:not(.active) {
     transition: background-color 0.3s ease;
 }
 
-.scroll-button1 {
+.scrollTop {
+    font-size: large;
     position: fixed;
     top: 20px;
     left: 160px;
     padding: 10px 20px;
-    background-color: #ff6347;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -143,11 +145,13 @@ nav ul li a#neptune:hover:not(.active) {
     transition: background-color 0.3s ease;
 }
 .footerHide {
+    font-size: large;
     position: fixed;
     top: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #110d0c;
+    /* background-color: #110d0c; */
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -156,11 +160,13 @@ nav ul li a#neptune:hover:not(.active) {
     transition: background-color 0.3s ease;
 }
 .footerShow {
+    font-size: large;
     position: fixed;
     top: 20px;
     right: 160px;
     padding: 10px 20px;
-    background-color: #110d0c;
+    /* background-color: #110d0c; */
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
