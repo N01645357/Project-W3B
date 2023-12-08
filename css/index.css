@@ -150,6 +150,32 @@ nav ul li a:hover:not(.active) {
     z-index: 999;
     transition: background-color 0.3s ease;
 }
+.footerHide {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #110d0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+.footerShow {
+    position: fixed;
+    /* top: 20px; */
+    /* right: 20px; */
+    padding: 10px 20px;
+    background-color: #110d0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
 section h2 {
     color: white;
     text-align: center;
