@@ -189,22 +189,14 @@ img {
     margin: auto;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 10px; /* Reduced padding */
-    color: white;
-    text-align: center;
-    font-size: 14px; /* Reduced font size */
+.textShow {
+    font-size: 50px;
+    margin-top: -630px;
+    margin-left: 900px;
+    /* display: none; */
 }
-
-footer img {
-    width: 40px;
-    height: 40px;
-    margin: 5px;
+.textShow:hover {
+    /* display: block; */
 }
 
 /* Sun Transition */
@@ -285,4 +277,22 @@ footer img {
 }
 .imageLinkNep:hover .hoverEffectNep {
     transform: translateX(-900px); /* Move the image 50px to the right */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px; /* Reduced padding */
+    color: white;
+    text-align: center;
+    font-size: 14px; /* Reduced font size */
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
 }
