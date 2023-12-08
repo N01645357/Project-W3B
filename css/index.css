@@ -200,3 +200,20 @@ footer img {
     height: 40px;
     margin: 5px;
 }
+
+.hoverEffect {
+    transition: transform 0.6s ease-in-out; /* Apply transition for smooth movement */
+}
+
+/* Define the hover effect */
+.imageLink:hover .hoverEffect {
+    transform: translateX(-300px); /* Move the image 50px to the right */
+}
+.textShow {
+    display: none; /* Initially hide the text */
+  }
+  
+.textShow:hover {
+    display: block; /* Show the text on hover */
+}
+  
