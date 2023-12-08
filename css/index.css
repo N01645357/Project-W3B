@@ -120,12 +120,71 @@ nav ul li a {
     padding: 8px 10px;
 }
 
-nav ul li a:hover:not(.active) {
-    background-color: navy;
+nav ul li a#home:hover:not(.active) {
+    background-color: purple;
     color: white;
     
 }
 
+nav ul li a#sun:hover:not(.active) {
+    background-color: yellow;
+    color: black;
+    
+}
+
+nav ul li a#mercury:hover:not(.active) {
+    background-color: lightgray;
+    color: black;
+    
+}
+
+nav ul li a#venus:hover:not(.active) {
+    background-color: wheat;
+    color: black;
+    
+}
+
+nav ul li a#moon:hover:not(.active) {
+    background-color: grey;
+    color: black;
+    
+}
+
+nav ul li a#earth:hover:not(.active) {
+    background-color: green;
+    color: blue;
+    
+}
+
+nav ul li a#mars:hover:not(.active) {
+    background-color: orangered;
+    color: white;
+    
+}
+
+nav ul li a#jupiter:hover:not(.active) {
+    background-color: orange;
+    color: white;
+    
+}
+
+nav ul li a#saturn:hover:not(.active) {
+    background-color: lightyellow;
+    color: black;
+    
+}
+
+nav ul li a#uranus:hover:not(.active) {
+    background-color: lightblue;
+    color: white;
+    
+}
+
+nav ul li a#neptune:hover:not(.active) {
+    background-color: navy;
+    color: white;
+    
+}
 
 .scroll-button {
     position: fixed;
