@@ -1,0 +1,210 @@
+/* html{
+    background-color: black;
+    font-family: monospace;
+}
+
+#floating{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {transform: translate(0, 0px);}
+    50% {transform: translate(0, 15px);}
+    100% {transform: translate(0, -0px);}
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+nav{
+    color: white;
+  
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+
+nav ul li a:hover:not(.active){
+    background-color: purple;
+    color: white;
+    padding: 8px 10px;
+}
+
+section h2{
+    color: white;
+    text-align: center;
+}
+
+section p{
+    color: white;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+
+
+footer{
+    color: white;
+} */
+
+html {
+    /* background-color: black; */
+    background-image: url("/Project-W3B-master/images/starryNight.png");
+    font-family: monospace;
+}
+
+#floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0, 0px); }
+    50% { transform: translate(0, 15px); }
+    100% { transform: translate(0, -0px); }
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    color: white;
+    text-align: center; /* Center-align the content */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; /* Display the list items in a row */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin between list items */
+    padding: 30px; /* Preserve the padding from the original code */
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+.scroll-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #add8e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-button1 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+.footerHide {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #110d0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+.footerShow {
+    position: fixed;
+    /* top: 20px; */
+    /* right: 20px; */
+    padding: 10px 20px;
+    background-color: #110d0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+section h2 {
+    color: white;
+    text-align: center;
+}
+
+section p {
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px; /* Reduced padding */
+    color: white;
+    text-align: center;
+    font-size: 14px; /* Reduced font size */
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
