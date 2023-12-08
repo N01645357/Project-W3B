@@ -19,11 +19,11 @@ function footerShow() {
     footer.style.display = "block";
 }
 
-function spin() {
-    const images = document.getElementsByClassName('spin');
-    // Loop through the collection of elements with the 'spin' class
-    for (let i = 0; i < images.length; i++) {
-        // Apply the rotation to each image
-        images[i].style.transform = 'rotate(360deg)';
-    }
-}
+// function spin() {
+//     const images = document.getElementsByClassName('spin');
+//     // Loop through the collection of elements with the 'spin' class
+//     for (let i = 0; i < images.length; i++) {
+//         // Apply the rotation to each image
+//         images[i].style.transform = 'rotate(360deg)';
+//     }
+// }
