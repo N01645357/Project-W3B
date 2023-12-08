@@ -73,8 +73,8 @@ html {
     /* background-color: black; */
     background-image: url("../images/background.png");
     font-family: monospace;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-size: 150px 180px;
     background-position: center;
 }
 
