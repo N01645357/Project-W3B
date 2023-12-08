@@ -110,19 +110,20 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin: 0 10px; /* Adjust the margin between list items */
-    padding: 30px; /* Preserve the padding from the original code */
+    padding: 10px; /* Preserve the padding from the original code */
 }
 
 nav ul li a {
     text-decoration: none;
     display: block;
     color: white;
+    padding: 8px 10px;
 }
 
 nav ul li a:hover:not(.active) {
-    background-color: purple;
+    background-color: navy;
     color: white;
-    padding: 10px 10px;
+    
 }
 
 
