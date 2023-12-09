@@ -55,23 +55,27 @@ header {
 }
 
 nav {
+    /* font-size: 300px; */
     color: white;
     text-align: center; /* Center-align the content */
 }
 
 nav ul {
+    /* font-size: 300px; */
     list-style-type: none;
     padding: 0;
     display: inline-block; /* Display the list items in a row */
 }
 
 nav ul li {
+    /* font-size: 300px; */
     display: inline-block;
     margin: 0 10px; /* Adjust the margin between list items */
     padding: 10px; /* Preserve the padding from the original code */
 }
 
 nav ul li a {
+    /* font-size: 30px; */
     text-decoration: none;
     display: block;
     color: white;
