@@ -34,27 +34,58 @@
             <button class="scroll-button1" onclick="scrollToTop()">Go to Top</button>
             <button onclick="footerShow()" class="footerShow">Show Footer</button>
             <button onclick="footerHide()" class="footerHide" id="footerHide">Hide Footer</button>
+            
+            <div id="rocket"></div>
+            <style>
+                #rocket {
+                    background: url('/images/spaceshuttle.png') no-repeat; 
+                    background-size: contain;
+                    width: 50px; 
+                    height: 100px;
+                    position: absolute;
+                    top: 0;
+                    right: 48%; 
+                }
+            </style>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    let pos = 0;
+                    const elem = document.getElementById("rocket");
+                    const endPosition = 200; 
+                    const id = setInterval(frame, 5);
+            
+                    function frame() {
+                        if (pos >= endPosition) {
+                            clearInterval(id);
+                        } else {
+                            pos++;
+                            elem.style.top = pos + "px";
+                        }
+                    }
+                });
+            </script>
+
             <img src="/images/neptune.png" alt="neptune" height="400px" width="400px">
             <h1>Neptune</h1>
             <section>
                 <h2>Overview</h2>
-                <p>Neptune is one of two ice giants in the outer solar system (the other is Uranus).</p>
-                <p>Most (80% or more) of the planet's mass is made up of a hot dense fluid of "icy" materials water, methane, and ammonia above a small, rocky core. Of the giant planets, Neptune is the densest.</p>
+                <p>Neptune is the eighth and farthest known planet from the Sun in the Solar System. It is the fourth-largest planet by diameter and the third-largest by mass. Discovered in 1846, Neptune was the first planet found by mathematical prediction rather than through direct observation.</p>
+                <p>Neptune's striking blue color is due to the absorption of red light by methane in the atmosphere. Its atmosphere is composed predominantly of hydrogen and helium, along with traces of hydrocarbons and possibly nitrogen. It has a notably stormy atmosphere, with high-speed winds and large storms.</p>
             </section>
             <section>
-                <h2>Notable Features</h2>
-                <p>The planet's rich blue color comes from methane in its atmosphere, which absorbs red wavelengths of light but allows blue ones to be reflected back into space.</p>
-                <p>Neptune was the first planet located through mathematical calculations.</p>
+                <h2>Moons and Rings</h2>
+                <p>Neptune has 14 known moons, with Triton being the largest. Triton is unique as it orbits Neptune in the opposite direction of the planet's rotation, suggesting that it was a dwarf planet captured by Neptune's gravity. Triton is geologically active, with geysers thought to spew nitrogen.</p>
+                <p>Neptune also has a system of rings, although they are much fainter than those of Saturn. These rings are made of extremely dark material, likely organic compounds processed by radiation, similar to those found in the rings of Uranus.</p>
             </section>
             <section>
                 <h2>Exploration</h2>
-                <p>In 1989, NASA's Voyager 2 became the first-and only-spacecraft to study Neptune up close. Voyager returned a wealth of information about Neptune and its moons-and confirmed evidence the giant world had faint rings like the other gas planets.</p>
-                <p>Scientists also use the Hubble Space Telescope and powerful ground-based telescopes to gather more information about this distant planet.</p>
+                <p>The Voyager 2 spacecraft, part of NASA's Voyager program, is the only mission to have visited Neptune. It flew close to the planet in 1989, providing the first close-up images of Neptune and its moons. This flyby remains our only direct encounter with Neptune, providing valuable scientific data about the planet and its system.</p>
+                <p>Future missions to Neptune have been proposed, including orbiters and even a potential Triton lander. These missions aim to study Neptune's atmosphere, weather, magnetic field, rings, and moons in greater detail.</p>
             </section>
             <section>
-                <h2>Moons</h2>
-                <p>Neptune has 14 moons (natural satellites). Before Voyager 2's flyby of the planet, Neptune's only known moons were Triton and Nereid.</p>
-                <p>Neptune's moons are named after figures in Greek mythology usually connected with Poseidon or with water.</p>
+                <h2>Significance in Astronomy</h2>
+                <p>Neptune's discovery was a landmark event in astronomy as it was predicated on mathematical calculations rather than observational astronomy. This demonstrated the power of Newtonian mechanics in predicting celestial events and movements.</p>
+                <p>Neptune's complex climate, dynamic atmosphere, and the mysterious nature of Triton offer rich fields of study that can deepen our understanding of planetary science and the formation of the Solar System.</p>
             </section>
         </main>
         <footer id="mainFooter" style="display: none;">

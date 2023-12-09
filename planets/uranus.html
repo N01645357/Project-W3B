@@ -35,8 +35,55 @@
             <button class="scroll-button1" onclick="scrollToTop()">Go to Top</button>
             <button onclick="footerShow()" class="footerShow">Show Footer</button>
             <button onclick="footerHide()" class="footerHide" id="footerHide">Hide Footer</button>
-            <h1>TBA</h1>
-        </main>
+            
+            <div id="rocket"></div>
+            <style>
+                #rocket {
+                    background: url('/images/spaceshuttle.png') no-repeat; 
+                    background-size: contain;
+                    width: 50px; 
+                    height: 100px;
+                    position: absolute;
+                    top: 0;
+                    right: 48%; 
+                }
+            </style>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    let pos = 0;
+                    const elem = document.getElementById("rocket");
+                    const endPosition = 200; 
+                    const id = setInterval(frame, 5);
+            
+                    function frame() {
+                        if (pos >= endPosition) {
+                            clearInterval(id);
+                        } else {
+                            pos++;
+                            elem.style.top = pos + "px";
+                        }
+                    }
+                });
+            </script>
+
+            <img src="/images/uranus.png" alt="uranus" width="400px" height="400px">
+            <section>
+                <h2>Overview</h2>
+                <p>Uranus is the seventh planet from the Sun. Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin sideways, orbiting the Sun like a rolling ball. he first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode.</p>
+            </section>
+            <section>
+                <h2>Notable Features</h2>
+                <p>One day on Uranus takes about 17 hours (the time it takes for Uranus to rotate or spin once). And Uranus makes a complete orbit around the Sun (a year in Uranian time) in about 84 Earth years (30,687 Earth days). Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees - possibly the result of a collision with an Earth-sized object long ago. This unique tilt causes the most extreme seasons in the solar system. For nearly a quarter of each Uranian year, the Sun shines directly over each pole, plunging the other half of the planet into a 21-year-long, dark winter.</p>
+            </section>
+            <section>
+                <h2>Exploration</h2>
+                <p>As an ice giant, Uranus doesn't have a true surface. The planet is mostly swirling fluids. While a spacecraft would have nowhere to land on Uranus, it wouldn't be able to fly through its atmosphere unscathed either. The extreme pressures and temperatures would destroy a metal spacecraft.</p>
+            </section>
+            <section>
+                <h2>Moons</h2>
+                <p>Uranus has 27 known moons. While most of the satellites orbiting other planets take their names from Greek or Roman mythology, Uranus' moons are unique in being named for characters from the works of William Shakespeare and Alexander Pope. All of Uranus' inner moons appear to be roughly half water ice and half rock. The composition of the outer moons remains unknown, but they are likely captured asteroids.</p>
+            </section>
+        </main>   
         <footer id="mainFooter" style="display: none;">
             <h3>Contact Us</h3>
             <h3>About Us</h3>
