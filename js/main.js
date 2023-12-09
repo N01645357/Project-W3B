@@ -8,12 +8,9 @@ function scrollToBottom() {
 
 function footerHide() {
     var footer = document.getElementById("mainFooter");
-    if (footer.style.display === "none") {
-        footer.style.display = "block";
-    } else {
-        footer.style.display = "none";
-    }
+    footer.style.display = "none";
 }
+
 function footerShow() {
     var footer = document.getElementById("mainFooter");
     footer.style.display = "block";
