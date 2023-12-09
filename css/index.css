@@ -158,7 +158,6 @@ nav ul li a#neptune:hover:not(.active) {
     z-index: 999;
     transition: background-color 0.3s ease;
 }
-
 .scrollTop {
     font-size: large;
     position: fixed;
@@ -173,6 +172,7 @@ nav ul li a#neptune:hover:not(.active) {
     z-index: 999;
     transition: background-color 0.3s ease;
 }
+
 .footerHide {
     font-size: large;
     position: fixed;
