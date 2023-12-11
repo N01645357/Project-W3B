@@ -108,13 +108,13 @@ nav ul li a#venus:hover:not(.active) {
 
 nav ul li a#moon:hover:not(.active) {
     background-color: grey;
-    color: black;
+    color: white;
     
 }
 
 nav ul li a#earth:hover:not(.active) {
     background-color: green;
-    color: blue;
+    color: lightskyblue;
     
 }
 
@@ -146,6 +146,56 @@ nav ul li a#neptune:hover:not(.active) {
     background-color: navy;
     color: white;
     
+}
+
+nav ul li a.SUN{
+    background-color: yellow;
+    color: black;
+}
+
+nav ul li a.MERCURY{
+    background-color: lightgray;
+    color: black;
+}
+
+nav ul li a.VENUS{
+    background-color: wheat;
+    color: black;
+}
+
+nav ul li a.MOON{
+    background-color: grey;
+    color: white;
+}
+
+nav ul li a.EARTH{
+    background-color: green;
+    color: lightskyblue;
+}
+
+nav ul li a.MARS{
+    background-color: orangered;
+    color: white;
+}
+
+nav ul li a.JUPITER{
+    background-color: orange;
+    color: white;
+}
+
+nav ul li a.SATURN{
+    background-color: lightyellow;
+    color: black;
+}
+
+nav ul li a.URANUS{
+    background-color: lightblue;
+    color: white;
+}
+
+nav ul li a.NEPTUNE{
+    background-color: navy;
+    color: white;
 }
 
 .scrollBottom {
