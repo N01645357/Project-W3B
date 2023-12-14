@@ -17,7 +17,7 @@ html {
 }
 @keyframes floating1 {
     0% { transform: translate(0, 0px); }
-    50% { transform: translate(-70px, 50px); }
+    50% { transform: translate(0px, 50px); }
     100% { transform: translate(0, -0px); }
 }
 
@@ -44,9 +44,9 @@ html {
     z-index: -1;
 }
 @keyframes floating3 {
-    0% { transform: translate(0, 0px); }
-    50% { transform: translate(200px, -90px); }
-    100% { transform: translate(0, -0px); }
+    0% { transform: translate(0px, 0px); }
+    50% { transform: translate(0px, 100px); }
+    100% { transform: translate(0px, 0px); }
 }
 
 header {
