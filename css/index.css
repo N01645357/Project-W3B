@@ -269,6 +269,7 @@ section p {
 }
 
 img {
+    /* position: unset; */
     display: block;
     margin: auto;
 }
