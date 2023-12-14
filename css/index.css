@@ -269,6 +269,7 @@ section p {
 }
 
 img {
+    /* position: unset; */
     display: block;
     margin: auto;
 }
@@ -285,7 +286,7 @@ img {
     transition: transform 0.06s ease-in-out; /* Apply transition for smooth movement */
 }
 .imageLinkSun:hover .hoverEffectSun {
-    transform: translateX(-900px); /* Move the image 50px to the right */
+    transform: translateX(900px); /* Move the image 50px to the right */
 }
 
 /* Mercury Transition */
